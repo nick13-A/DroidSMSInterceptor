@@ -1,13 +1,5 @@
-@@ -19,6 +19,7 @@ sys.setdefaultencoding("utf-8")
-# Variables
-CurrentDir = os.path.dirname(os.path.abspath(__file__))
-load_count = 0
-page2 = False
 
-#=============================
-#Install Functions
 @ -122,311 +123,308 @@ page_2 = '''\n
-#Main
 def main():
     page_num = 1
     option = raw_input(Fore.WHITE + "phonesploit"+Fore.RED + "(main_menu) "+Fore.WHITE + "> ")
